@@ -1,0 +1,83 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+#mainlabel {
+    position: relative;
+    top: 80px;
+    left: 110px;
+}
+#cidades {
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    height: 20px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    outline: none !important;
+	border: 1px solid rgba(0, 0, 0);
+}
+#grafico {
+    position: fixed;
+    top: 130px;
+    left: 100px;
+    height: 500px;
+    width: 350px;
+    outline: none !important;
+	border: 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+	border-left: 1px solid rgba(0, 0, 0, 0.5);
+}
+.barras {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width: 53px;
+    margin: 0 0 0 7px;
+    padding: 0;
+}
+.minibarra {
+    display: inline-block;
+    position: absolute;
+    bottom: 0.5px;
+    margin: 0;
+    padding: 0;
+    animation-name: nha;
+    animation-duration: 2s;
+}
+#taxa {
+    position: fixed;
+    top: 130px;
+    left: 60px;
+}
+#taxa h5 {
+    text-align: right;
+    margin: 2px 0 8px 0;
+}
+#anos {
+    position: fixed;
+    top: 634px;
+    left: 105px;
+}
+#anos h5 {
+    float: right;
+    margin: 0 18px 0 18px;
+}
+#lista {
+    position: relative;
+    top: 100px;
+    left: 600px;
+    display: list-item;
+    list-style-type: none;
+}
+#lista h3{
+    display: table;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+@keyframes nha{
+    0%{
+        height: 0%;
+    }
+}
